@@ -19,28 +19,7 @@
         },
         "rfc2109": false,
         "secure": true,
-        "value": "vk1.a.vdWdurw9kCEUbcJS6R_4CxfGPyOiYoaakI-mWPexSZpg7V7eZpc3_5IZi2nY92JcGgiRgsdL6JZ4Ir2DXpYMS7rrDvp3ZGUeGQEPhYYnEwLlIj3gKRBLaGtbAZBSWXSb-hNscSqYA9z1TByeWr06riAXVsAbRZ7c3peR3FfO8kE",
-        "version": 0
-      },
-      {
-        "comment": null,
-        "comment_url": null,
-        "discard": false,
-        "domain": ".login.vk.com",
-        "domain_initial_dot": false,
-        "domain_specified": true,
-        "expires": null,
-        "name": "s",
-        "path": "/",
-        "path_specified": true,
-        "port": null,
-        "port_specified": false,
-        "rest": {
-          "HttpOnly": null
-        },
-        "rfc2109": false,
-        "secure": true,
-        "value": "1",
+        "value": "vk1.a.-5MwVLya_pAqq_IssJ6B0Xzbt38FTsrYlDWrK16Q0eCW_STi6ptjd5NQvRr-t-WcgO2cbT4LLMZuKVWWLD0ES3cJipe6ZrtF6ZPLHecpY916hqLUkyVcINj2kUIxd8d9N65f3MD96gDUDDhkLz-oyukjmA2PYH4KamMbZnkwJXg",
         "version": 0
       },
       {
@@ -65,7 +44,7 @@
       {
         "comment": null,
         "comment_url": null,
-        "discard": false,
+        "discard": true,
         "domain": ".vk.com",
         "domain_initial_dot": true,
         "domain_specified": true,
@@ -80,7 +59,7 @@
         },
         "rfc2109": false,
         "secure": true,
-        "value": "1_gnaRVS8rMWNnTaFwwRs5ywtPPRh4WTm_O0IuoU1dMsp6dpCcXcuZP_hlV7d3qmHpvkSoRko5cu843TvWcnq53A",
+        "value": "1_NHXgr2E2ZfWCYFxG9SAs36IaVaqMj_iEA73UVG7te7f74ahMW7xUhga8nnYEWyw7wQNnS4VdXlWi9-M0XcKLcA",
         "version": 0
       },
       {
@@ -99,7 +78,7 @@
         "rest": {},
         "rfc2109": false,
         "secure": true,
-        "value": "925978769_WfnT7Dmd7YbzEVTYpKE6AqivGWyU9dVraCEOhwguOz8",
+        "value": "1138613950_V8I42StZForJjgqcznOe1tWaMYSKqYep1GbDFVvvb7k",
         "version": 0
       },
       {
@@ -118,7 +97,7 @@
         "rest": {},
         "rfc2109": false,
         "secure": true,
-        "value": "9100881381232887840_UcYrhKPgyCLHCPy0lDiEFzwWAmcqFgHCWEIiu6vFEmo",
+        "value": "9108762690688867514_RQuemNwFMHq8QQuA361vUSAHHOZWurb2BadP06Ngm8X",
         "version": 0
       },
       {
@@ -143,6 +122,25 @@
       {
         "comment": null,
         "comment_url": null,
+        "discard": true,
+        "domain": "login.vk.com",
+        "domain_initial_dot": false,
+        "domain_specified": false,
+        "expires": null,
+        "name": "Array",
+        "path": "/",
+        "path_specified": false,
+        "port": null,
+        "port_specified": false,
+        "rest": {},
+        "rfc2109": false,
+        "secure": false,
+        "value": null,
+        "version": 0
+      },
+      {
+        "comment": null,
+        "comment_url": null,
         "discard": false,
         "domain": "login.vk.com",
         "domain_initial_dot": false,
@@ -158,34 +156,13 @@
         },
         "rfc2109": false,
         "secure": true,
-        "value": "ZDc0M2U1MWI5Yjg1ZDlkZDBhNmY3OTI2",
+        "value": "OTE5MGVkMWU3NTE0N2M5MWI5NmZlMzFk",
         "version": 0
       },
       {
         "comment": null,
         "comment_url": null,
-        "discard": false,
-        "domain": "vk.com",
-        "domain_initial_dot": false,
-        "domain_specified": false,
-        "expires": null,
-        "name": "remixluas2",
-        "path": "/",
-        "path_specified": true,
-        "port": null,
-        "port_specified": false,
-        "rest": {
-          "HttpOnly": null
-        },
-        "rfc2109": false,
-        "secure": true,
-        "value": "YzM1Y2E5MWJkYzkzZjI3ZmQ2N2FkMmZi",
-        "version": 0
-      },
-      {
-        "comment": null,
-        "comment_url": null,
-        "discard": false,
+        "discard": true,
         "domain": "vk.com",
         "domain_initial_dot": false,
         "domain_specified": false,
@@ -200,7 +177,7 @@
         },
         "rfc2109": false,
         "secure": true,
-        "value": "vk1.a.82SdCu4yFprzKJdx3KvdYg5e1jxj4IEslVA-fRBsfXYRYPxnPasn-sBPuvaJysPMAMcjKNfHewxlUl6F8tnFy1mtXsw0Y4iwS7Brq7-h-U_0inoCB2jJIV2cy_PJebgxfa2uWinbaWJmAH9vlxpvHQ3n3Es0wQfbUTqmNYVc1VJOMKIS153zP-mBMHBsj5Ro",
+        "value": "vk1.a.S2It9GZ1wggMfnSNMDG6NuATuJ3tVHWfFE15aUXcXPeCtgZaXKUoFCDzHvXOZ4g6W3TfmJ1ftUPTS2P8yMSLon3Dye8me8PIiHMU2wK5K8RYQYnpk8Ghm5EWM4J9qA51nUIuxtOMLlymOLoEt0Z1bicTqgHeKckydETobTE1zI2QH8VTrM5yE6HQxBz51wJz",
         "version": 0
       }
     ],

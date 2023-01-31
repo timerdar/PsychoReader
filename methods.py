@@ -6,13 +6,14 @@ from psycho_methods import PsychoReader
 def local_test(users_ids):
     #анализ текста постов пользователя
     vk = VkMethods()
-    out = ''
+    out = [[],'']
     for user_id in users_ids:
         user = vk.get_name([user_id])
         messages = vk.get_wall_message([user[0]], count=100)
         rep = analyse(messages)
         s = (result(rep, user[1], user[0]))
-        out += s + '\n'
+        out[0] += [rep + [user[1]] + ['https://vk.com/'+user_id]]
+        out[1] += s + '\n'
     return out
 #    print("Анализ закончен")
 
@@ -21,7 +22,7 @@ def full_test(users_ids):
     #анализ стен друзей и постов групп пользователя
     #выполняется долго, т.к. для каждого ид(группы и друзья) отправляется запрос через апи(долго)
     vk = VkMethods()
-    out = ''
+    out = [[],'']
     for user_id in users_ids:
         user = vk.get_name([user_id])
         friends = vk.get_friends_list(user[0])
@@ -30,7 +31,8 @@ def full_test(users_ids):
         messages = vk.get_wall_message(all_users) + vk.get_wall_message(groups, is_user=False)
         rep = analyse(messages)
         s = result(rep, user[1], user[0])
-        out += s + '\n'
+        out[0] += [rep + [user[1]] + ['https://vk.com/'+user_id]]
+        out[1] += s + '\n'
     return out
 
 
