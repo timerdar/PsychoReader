@@ -1,8 +1,8 @@
 from cx_Freeze import setup, Executable
 
 # Dependencies are automatically detected, but it might need
-# fine tuning.
-build_options = {'packages': ['pymorphy2', 'vk_api', 're'], 'excludes': []}
+# fine tuning
+build_options = {'packages': ['pymorphy2', 'vk_api', 're', 'pandas', 'openpyxl'], 'excludes': []}
 
 base = 'Win32GUI'
 
